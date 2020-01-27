@@ -1,0 +1,252 @@
+body{
+    font-family: Arial, Helvetica, sans-serif ;
+    font-size: 15px;
+    line-height: 1.5;
+    background-color: #E4E3E9;
+}
+
+.container{
+    width: 80%;
+    margin:auto;
+    overflow: hidden;
+}
+.formContainer{
+    margin: auto;
+    width: 20%;
+    overflow: hidden;
+    text-align: center;
+}
+header{
+    background: #35424a; 
+    color: #ffffff;
+    position: relative;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom:#0448a7 3px solid;
+}
+ul{
+    margin: 0;
+    padding: 0;
+
+}
+.button_1{
+    height: 38px;
+    background: #0448a7 ;
+    border:0;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #ffffff;
+}
+.button_1:hover{
+    background: #0448a78f ;
+
+}
+.dark{
+    padding: 15px;
+    background:  #35424a;
+    color: #ffffff;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+header img{
+    float: left;
+}
+header a{
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+
+}
+header li{
+    float: left;
+    display: inline;
+    padding: 0 10px 0 10px;
+
+}
+header #branding{
+    float: left;
+   
+}
+header #branding h1{
+    margin: 0;
+    float: left;
+}
+header nav{
+    float: right;
+    margin-top: 10px; 
+}
+header img{
+    width: 40px;
+}
+header .highlight, header .current a{
+    color: #0448a7 ;
+    font-weight: bold;
+}
+header a:hover{
+    color: #ffffff;
+    font-weight: bold;
+}
+.text{
+    padding: 12px 20px;
+    margin: 8px 0;
+    width: 78%;
+    box-sizing: border-box;
+}
+.messageText{
+    padding: 12px 20px;
+    margin: 8px 0;
+    width: 78%;
+    box-sizing: border-box;
+}
+
+#showcase{
+    min-height: 400px;
+    background:url('../img/doktorlar.jpg')  no-repeat -100px -150px;
+    text-align: center;
+    color: #ffffff;
+}
+#showcase h1{
+    margin-top: 100px;
+    font-size: 55px;
+    margin-bottom: 10px;
+    color: #0448a7 ;
+
+}
+#showcase p{
+    font-size: 20px;
+    color: #0448a7 ;
+
+}
+#newsletter{
+    padding: 15px;
+    color: #ffffff;
+    background: #35424a; 
+}
+#newsletter h1{
+    float: left;
+}
+#newsletter form{
+    float: right;
+    margin-top: 15px;
+}
+#newsletter input[type="email"]{
+    padding: 4px;
+    height: 25px;
+    width: 250px
+}
+#boxes{
+    margin-top: 20px;
+}
+#boxes .box{
+    float: left;
+    text-align: center;
+    width: 25%;
+    padding:50px
+}
+#boxes .box2{
+    float: left;
+    text-align: center;
+    width: 40%;
+    padding:50px;
+}
+#boxes .box img{
+    width: 90px;
+}
+/*SideBar*/
+aside#sidebar{
+    float: right;
+    width: 30%;
+    margin-top: 10px;
+}
+aside#sidebar .quote input, aside#sidebar .quote textarea{
+    width:90%;
+    padding: 5px;
+
+}
+.box2 img{
+    width: 60px;
+    float: left;
+}
+.box2 .branding{
+    float: left;
+}
+
+/*Main-col*/
+article#main-col{
+    float: left;
+    width: 65%;
+}
+
+/*Services*/ 
+ul#services li{
+    list-style: none;
+    padding: 20px;
+    border: #cccccc solid 1px;
+    margin-bottom: 5px;
+    background: rgb(213, 212, 214);
+
+}
+
+#signIn{
+    padding: 15px;
+    color: #ffffff;
+    
+    background: #35424a; 
+}
+#signIn h1{
+    float: left;
+}
+#signIn form{
+    float: right;
+    margin-top: 15px;
+}
+#signIn input{
+    padding: 4px;
+    height: 25px;
+    width: 250px
+}
+footer{
+    padding: 20px;
+    margin-top: 20px; 
+    color: #ffffff;
+    background-color:#0448a7 ; 
+    text-align: center;
+}
+
+
+/* Media Queries */
+@media(max-width: 768px){
+    header #branding,
+    header nav,
+    header nav li,
+    #newsletter h1,
+    #newsletter form,
+    #boxes .box,
+    article#main-col,
+    aside#sidebar{
+      float:none;
+      text-align:center;
+      width:100%;
+    }
+  
+    header{
+      padding-bottom:20px;
+    }
+  
+    #showcase h1{
+      margin-top:40px;
+    }
+  
+    #newsletter button, .quote button{
+      display:block;
+      width:100%;
+    }
+  
+    #newsletter form input[type="email"], .quote input, .quote textarea{
+      width:100%;
+      margin-bottom:5px;
+    }
+  }
+  
+
